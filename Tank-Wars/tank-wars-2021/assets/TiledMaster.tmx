@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="4">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="8">
+ <editorsettings>
+  <export target="tanks/Level1.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="landscape-tileset" tilewidth="64" tileheight="64" tilecount="30" columns="6">
   <image source="tanks/landscape-tileset.png" width="384" height="320"/>
   <tile id="24">
@@ -56,6 +59,15 @@
    <point/>
   </object>
   <object id="3" type="enemySpawn" x="640" y="244">
+   <point/>
+  </object>
+  <object id="4" type="playerSpawn" x="768" y="310">
+   <point/>
+  </object>
+  <object id="6" type="enemySpawn" x="766" y="188">
+   <point/>
+  </object>
+  <object id="7" type="enemySpawn" x="834" y="252">
    <point/>
   </object>
  </objectgroup>
